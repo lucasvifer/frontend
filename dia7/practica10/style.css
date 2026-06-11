@@ -1,0 +1,41 @@
+*{
+    background-color: rgb(172, 160, 163);
+ 
+}
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+padding: 20px;
+}
+
+nav{
+    font-size: 14pt;
+    margin-bottom: 25px;
+}
+h1{
+    margin-bottom: 20px;
+}
+.galeria {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 16px;
+}
+.producto {
+cursor: pointer;
+border-radius: 8px;
+overflow: hidden;
+transition: transform 250ms;
+}
+.producto:hover{
+    transform:scale(1.04);
+}
+.producto img {
+width: 600px;
+height: 175px;
+object-fit: cover;
+align-items: center;
+}
+.product.p{
+    font-size: 14px;
+    padding:8px
+}

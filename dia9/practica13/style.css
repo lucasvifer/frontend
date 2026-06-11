@@ -1,0 +1,77 @@
+#clientes{
+    width: 90%;
+   border-collapse: collapse;
+}
+#clientes th{
+    background-color: #2e5d3a;
+    color:white;
+    padding: 8px;
+    text-align:left;
+    border: rgb(255, 255, 255);
+}
+#clientes td{
+    border:1px solid #525350
+}
+#clientes tr{
+    background-color: #f2f5ee;
+}
+th{
+    background-color: #223d29;
+
+}
+.center{
+    text-align: center;
+    border-bottom: 1px solid #525350;
+    border:1px solid #525350;
+}
+.right{
+    text-align: center;
+    border-bottom: 1px solid #525350;
+    border:1px solid #525350;
+}
+#Ventas{
+    border-collapse: collapse;
+    width: 90%;
+    border-bottom: 1px solid #525350;
+    border:1px solid #525350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.centrado{
+    border-bottom: 1px solid #525350;
+    border:1px solid #525350;
+    text-align: center;
+    background-color: #306e40;
+}
+.i1{
+    border-bottom: 1px solid #525350;
+    border:1px solid #525350;
+}
+.i2{
+    border-bottom: 1px solid #525350;
+    border:1px solid #525350;
+}
+.i3{
+    border-bottom: 1px solid #525350;
+    border:1px solid #525350;
+}
+.i4{
+    border-bottom: 1px solid #525350;
+    border:1px solid #525350;
+    background-color: #a2aa93;
+}
+.rh{
+    border-bottom: 1px solid #525350;
+    border:1px solid #525350;
+    text-align: right;
+    background-color: #a2aa93;
+
+}
+.rh2{
+    border-bottom: 1px solid #525350;
+    border:1px solid #525350;
+    text-align: center;
+    background-color: #a2aa93;
+}
+.totl{
+    background-color: #869775;
+}

@@ -1,0 +1,40 @@
+#Cotizaciones{
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 1px solid #525350;
+    border:1px solid #525350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Cotizaciones td{
+    border:solid;
+
+}
+#Cotizaciones th{
+    background-color: #1c6869;
+    color:white;
+    padding:8px;
+
+}
+#Cotizaciones td{
+    padding:6px 8px;
+    border-bottom:1px solid #424932;
+    
+}
+.cbz{
+    background-color: #2f8f82;
+}
+.i1{
+    background-color: #f5ffe1;
+}
+.i2{
+    background-color: #f5ffe1;
+}
+.i3{
+    background-color: #f5ffe1;
+}
+.i4{
+    background-color: #f5ffe1;
+}
+.right{
+    text-align: right;
+}

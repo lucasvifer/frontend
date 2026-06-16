@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulario Tailwind</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-gray-100 flex justify-center items-center min-h-screen">
+
+        <div class="bg-white rounded-2x1 shadow-md p-8 w-80">
+
+            <h4 class="card-title mb-4 text-center">Iniciar sesión</h4>
+
+            <div class="mb-4">
+                <label for="usuario" class="block text-sm font-medium">Usuario</label>
+                <input type="text" id="usuario" placeholder="Ingrese su usuario" class="w-full border-gray-300 rounded-lg px-6 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-50"/>
+            </div>
+
+            <div class="mb-4">
+                <label for="contrasena" class="block text-sm font-medium">Contraseña</label>
+                <input type="password" id="contraseña" placeholder="Ingrese su contraseña" class="w-full border-gray-300 rounded-lg px-6 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-50"/>
+            </div>
+
+            <button class="w-full bg-blue-300 text-white rounded-lg hover:bg-blue-600 transition font-medium">Enviar</button>
+        </div>
+    </body>
+</html>
